@@ -12,6 +12,7 @@
 }
 .region--black-background {
   background-color: #1d1d1d;
+  background-color: rgba(255, 173,0, 1);
 }
 .region--white-pattern {
   background-image: url('../../images/white-pattern.png');
@@ -30,14 +31,14 @@
 
 /*header-top layout*/
 .header-top__container {
-  padding: 70px 0 65px;
+  padding: 20px 0 15px;
 }
 .header-top__container p:last-child:first-child {
   padding-bottom: 0;
 }
 @media (max-width: 767px) {
   .header-top__container {
-    padding: 40px 0 25px;
+    padding: 20px 0 15px;
   }
   .header-top__section {
     text-align: center;

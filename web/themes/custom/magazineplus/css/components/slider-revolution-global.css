@@ -345,3 +345,7 @@
     display: none;
   }
 }
+
+.tp-thumb-content{
+display:none ! important;
+}

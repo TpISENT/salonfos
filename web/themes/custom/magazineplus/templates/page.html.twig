@@ -191,6 +191,26 @@
         {# EOF: header-top #}
       {% endif %}
 
+	{% if page.slogan %}
+    {# slogan #}
+    <div class="clearfix slogan {{ slogan_background_color }}{{ (slogan_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (slogan_region_paddings) ? ' region--no-paddings' : '' }}">
+      <div class="{{ slogan_layout_container }}">
+        {# slogan__container #}
+        <div class="clearfix slogan__container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="slogan__section">
+                {{ page.slogan }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {# EOF: slogan__container #}
+      </div>
+    </div>
+    {# EOF:slogan #}
+  {% endif %}
+		
       {% if page.header_first or page.header or page.header_third %}
         {# header #}
         <header role="banner" class="clearfix header {{ header_background_color }} {{ header_layout_container_class }} {{ header_layout_columns_class }}{{ (header_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (header_region_paddings) ? ' region--no-paddings' : '' }}">
@@ -253,6 +273,27 @@
     {# EOF: header-container #}
   {% endif %}
 
+  
+  {% if page.above_banner %}
+    {# above_banner #}
+    <div class="clearfix above_banner {{ above_banner_background_color }}{{ (above_banner_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (above_banner_region_paddings) ? ' region--no-paddings' : '' }}">
+      <div class="{{ above_banner_layout_container }}">
+        {# above_banner__container #}
+        <div class="clearfix above_banner__container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="above_banner__section">
+                {{ page.above_banner }}
+              </div>
+            </div>
+          </div>
+        </div>
+        {# EOF: above_banner__container #}
+      </div>
+    </div>
+    {# EOF:above_banner #}
+  {% endif %}
+	
   {% if page.banner %}
     {# banner #}
     <div class="clearfix banner {{ banner_background_color }}{{ (banner_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (banner_region_paddings) ? ' region--no-paddings' : '' }}">

@@ -246,14 +246,26 @@ select:focus {
 
 /* components: image overlay */
 .overlay--colored {
-  background-color: rgba(2, 102, 157, 0.8);
+  background-color: rgba(255, 173,0, .08);
 }
-.overlay--visible.overlay--colored {
-  background-color: rgba(2, 102, 157, 0.65);
+
+/*.overlay--visible.overlay--colored {
+  background-color: rgba(255, 173,0, 0.65);
 }
 .overlay-container:hover .overlay--visible.overlay--colored {
-  background-color: rgba(2, 102, 157, 0.8);
+  background-color: rgba(255, 173,0, 0.8);
+}*/
+.overlay-container .overlay-content .views-field-title h5 a {
+    color: #2d2d2d;
+    padding:5px;
 }
+
+.overlay-container .overlay-content .views-field-title h5 {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-top: 10px;
+    background-color: rgba(255, 173, 0, 1);
+    
 
 /* components: language switcher */
 .region--dark-typography .block-language ul li .is-active {
@@ -521,4 +533,18 @@ li.pager__item.is-active a {
 .region--light-typography.region--colored-background .view > .more-link a:hover {
   border-color: #02669d;
   background-color: #02669d;
+}
+
+.block-views-block-mt-posts-masonry-block-2 .views-field-title a{
+color:#000036 ! important; 
+}
+
+#block-views-block-mt-posts-grid-block-1 .overlay--visible.overlay--colored{
+background-color: transparent;
+background-color: none;
+background: transparent;
+background: none;
+}
+.overlay-container .overlay-content .views-field-title h5 a {
+font-size: 18px ! important;
 }

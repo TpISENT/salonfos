@@ -32,17 +32,21 @@
   transition: opacity linear 0.2s;
 }
 .image-caption {
-  position: absolute;
-  bottom: 40px;
+  position: relative;
+  /*bottom: 40px;
   left: 40px;
-  width: 330px;
+  width: 330px;*/
 }
 .image-caption h4 {
-  background: rgba(0, 0, 0, 0.77);
-  color: #ffffff;
+ /* background: rgba(0, 0, 0, 0.77);*/
+  color: #444;
   padding: 15px;
   margin: 0;
   margin-bottom: 1px;
+  border-bottom: 2px solid #f5f5f5;
+  font: 13px/18px Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  padding: 13px 0;
 }
 
 /*image listing*/

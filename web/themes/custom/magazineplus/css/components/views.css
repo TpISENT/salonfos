@@ -124,3 +124,6 @@
 .view.row .view-content:after {
   clear: both;
 }
+#block-views-block-mt-posts-masonry-block-2 .views-field-title a {
+    color: #000036;
+}
