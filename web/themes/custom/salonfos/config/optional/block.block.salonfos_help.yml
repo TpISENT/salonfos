@@ -1,4 +1,3 @@
-uuid: be6ecaf4-43ba-4d20-8967-a5e9918d8f20
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,6 @@ dependencies:
     - help
   theme:
     - salonfos
-_core:
-  default_config_hash: IEayb4QHxMzXoS3iz2PaAbHft7aTLySjf5BMM6iFDM0
 id: salonfos_help
 theme: salonfos
 region: content

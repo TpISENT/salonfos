@@ -1,4 +1,4 @@
-uuid: 2114538b-0bae-44f1-99ef-0815e9cd72de
+
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,6 @@ dependencies:
     - system
   theme:
     - salonfos
-_core:
-  default_config_hash: Q-hloXu4O_kre5oDwCieO1gTejbX6qfwQxmQdjNlHuU
 id: salonfos_main_menu
 theme: salonfos
 region: header
