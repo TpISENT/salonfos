@@ -203,6 +203,31 @@ function magazineplus_preprocess_page(&$variables) {
   $footer_fifth = $variables['page']['footer_fifth'];
   $subfooter_second = $variables['page']['footer'];
   $subfooter_first = $variables['page']['sub_footer_first'];
+  $video_content_left = $variables['page']['video_content_left'];
+  $video_content_right = $variables['page']['video_content_right'];
+  $pre_banner_left = $variables['page']['pre_banner_left'];
+  $pre_banner_right = $variables['page']['pre_banner_right'];
+  $above_banner = $variables['page']['above_banner'];
+  $slogan = $variables['page']['slogan'];
+
+
+  // video_content_left
+  if($video_content_left && $video_content_right) {
+    $variables['video_content_left_grid_class'] = 'col-sm-6';
+    $variables['video_content_right_grid_class'] = 'col-sm-6';
+  } elseif ($video_content_left || $video_content_right) {
+    $variables['video_content_left_grid_class'] = 'col-md-12';
+    $variables['video_content_right_grid_class'] = 'col-md-12';
+  }
+
+  // pre_banner_right
+  if($pre_banner_left && $pre_banner_right) {
+    $variables['pre_banner_left_grid_class'] = 'col-sm-6';
+    $variables['pre_banner_right_grid_class'] = 'col-sm-6';
+  } elseif ($pre_banner_left || $pre_banner_right) {
+    $variables['pre_banner_left_grid_class'] = 'col-md-12';
+    $variables['pre_banner_right_grid_class'] = 'col-md-12';
+  }
 
   // Attach library to slideout region
   if ($slideout) {

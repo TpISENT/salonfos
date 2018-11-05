@@ -540,6 +540,40 @@
   </div>
   {# EOF:main-content #}
 
+  {% if page.video_content_left or page.video_content_right %}
+    {# video-content #}
+    <div class="clearfix video_content {{ video_content_regions }} {{ video_content_background_color }} {{ video_content_separator }}{{ (video_content_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (video_content_region_paddings) ? ' region--no-paddings' : '' }}">
+      <div class="{{ video_content_layout_container }}">
+        {# video_content__container #}
+        <div class="clearfix video_content__container>
+          <div class="row">
+            {% if page.video_content_left %}
+              <div class="{{ video_content_left_grid_class }}">
+                {# video-content-left #}
+                <div class="clearfix video-content__section video-content-left">
+                  {{ page.video_content_left }}
+                </div>
+                {# EOF:video-content-left #}
+              </div>
+            {% endif %}
+
+            {% if page.video_content_right %}
+              <div class="{{ video_content_right_grid_class }}">
+                {# video-content-right #}
+                <div class="clearfix video-content__section video-content-right">
+                  {{ page.video_content_right }}
+                </div>
+                {# EOF:video-content-right #}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+        {# EOF: video-content__container #}
+      </div>
+    </div>
+    {# EOF: video-content #}
+  {% endif %}
+  
   {% if page.content_bottom_first or page.content_bottom_second %}
     {# content-bottom #}
     <div class="clearfix content-bottom {{ content_bottom_background_color }} {{ content_bottom_separator }}{{ (content_bottom_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (content_bottom_region_paddings) ? ' region--no-paddings' : '' }}">
