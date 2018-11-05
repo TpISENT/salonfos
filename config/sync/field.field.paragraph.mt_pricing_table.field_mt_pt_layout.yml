@@ -1,0 +1,21 @@
+uuid: 5d295f25-74fa-465e-9ff9-4f94132f47db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mt_pt_layout
+    - paragraphs.paragraphs_type.mt_pricing_table
+  module:
+    - options
+id: paragraph.mt_pricing_table.field_mt_pt_layout
+field_name: field_mt_pt_layout
+entity_type: paragraph
+bundle: mt_pricing_table
+label: Layout
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

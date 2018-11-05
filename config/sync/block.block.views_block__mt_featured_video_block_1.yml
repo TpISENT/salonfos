@@ -1,0 +1,42 @@
+uuid: 573faa3b-a721-4e45-b14d-8d60350c9c37
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_featured_video
+  module:
+    - ctools
+    - node
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_featured_video_block_1
+theme: magazineplus
+region: sidebar_second
+weight: -27
+provider: null
+plugin: 'views_block:mt_featured_video-block_1'
+settings:
+  id: 'views_block:mt_featured_video-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      mt_post: mt_post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      mt_post: mt_post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

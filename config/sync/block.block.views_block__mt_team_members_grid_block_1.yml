@@ -1,0 +1,30 @@
+uuid: 01f6b0e2-d14e-4840-bb31-046e07d43bdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_team_members_grid
+  module:
+    - system
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_team_members_grid_block_1
+theme: magazineplus
+region: content
+weight: -15
+provider: null
+plugin: 'views_block:mt_team_members_grid-block_1'
+settings:
+  id: 'views_block:mt_team_members_grid-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

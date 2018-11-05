@@ -1,0 +1,7 @@
+uuid: e9573280-2e22-47ab-85cb-ae8a10385a43
+langcode: en
+status: true
+dependencies: {  }
+id: mt_pricing_table
+label: 'Pricing Table'
+behavior_plugins: {  }

@@ -1,0 +1,48 @@
+uuid: 07c35954-cadb-4d78-95f7-c5ca114fe374
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.mt_post_categories.field_mt_pc_image
+    - image.style.thumbnail
+    - taxonomy.vocabulary.mt_post_categories
+  module:
+    - image
+    - path
+    - text
+id: taxonomy_term.mt_post_categories.default
+targetEntityType: taxonomy_term
+bundle: mt_post_categories
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_mt_pc_image:
+    weight: 31
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  name:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

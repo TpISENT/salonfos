@@ -1,0 +1,18 @@
+uuid: b3629be2-7415-4e9d-a430-b12a6af33f9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Post
+type: mt_post
+description: 'Use the Post content type to create and publish articles making use of all the special functionality built into the Magazine+ theme.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

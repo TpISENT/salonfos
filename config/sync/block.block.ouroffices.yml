@@ -1,0 +1,31 @@
+uuid: 164d9dd7-1509-470f-b0a6-33af285d591a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a065a474-1460-45cb-8f14-9e34c1fd4a52'
+  module:
+    - block_content
+    - system
+  theme:
+    - magazineplus
+id: ouroffices
+theme: magazineplus
+region: sidebar_second
+weight: -24
+provider: null
+plugin: 'block_content:a065a474-1460-45cb-8f14-9e34c1fd4a52'
+settings:
+  id: 'block_content:a065a474-1460-45cb-8f14-9e34c1fd4a52'
+  label: 'Our Offices'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

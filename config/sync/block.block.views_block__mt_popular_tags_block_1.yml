@@ -1,0 +1,24 @@
+uuid: f0ea8be9-596e-48c5-8544-7e95ffa3531e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_popular_tags
+  module:
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_popular_tags_block_1
+theme: magazineplus
+region: hidden_blocks_collection
+weight: -28
+provider: null
+plugin: 'views_block:mt_popular_tags-block_1'
+settings:
+  id: 'views_block:mt_popular_tags-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

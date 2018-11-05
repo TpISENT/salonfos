@@ -1,0 +1,30 @@
+uuid: 01a5851d-db16-4d2f-82e9-e45e2713240b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_posts_grid
+  module:
+    - system
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_posts_grid_block_3
+theme: magazineplus
+region: content_top_highlighted
+weight: 0
+provider: null
+plugin: 'views_block:mt_posts_grid-block_3'
+settings:
+  id: 'views_block:mt_posts_grid-block_3'
+  label: 'Popular News'
+  provider: views
+  label_display: visible
+  views_label: 'Popular News'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front> '
+    negate: false
+    context_mapping: {  }

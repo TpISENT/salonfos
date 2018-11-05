@@ -1,0 +1,31 @@
+uuid: 3da8bb56-788f-4c71-ac13-4820fcc94e96
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8724f29a-75c1-494d-897c-47343a4a9d35'
+  module:
+    - block_content
+    - system
+  theme:
+    - magazineplus
+id: ourteamstatic
+theme: magazineplus
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:8724f29a-75c1-494d-897c-47343a4a9d35'
+settings:
+  id: 'block_content:8724f29a-75c1-494d-897c-47343a4a9d35'
+  label: 'Our Team (Static)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

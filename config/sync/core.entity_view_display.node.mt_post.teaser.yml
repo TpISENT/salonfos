@@ -1,0 +1,81 @@
+uuid: 18946602-a5a6-4624-b83a-fa0c075dd341
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mt_post.body
+    - field.field.node.mt_post.comment
+    - field.field.node.mt_post.field_image
+    - field.field.node.mt_post.field_mt_banner_image
+    - field.field.node.mt_post.field_mt_portrait_image
+    - field.field.node.mt_post.field_mt_post_category
+    - field.field.node.mt_post.field_mt_post_tags
+    - field.field.node.mt_post.field_mt_slideshow
+    - field.field.node.mt_post.field_mt_slideshow_image
+    - field.field.node.mt_post.field_mt_slideshow_text
+    - field.field.node.mt_post.field_mt_subheader_body
+    - field.field.node.mt_post.field_mt_video
+    - field.field.node.mt_post.field_tags
+    - image.style.large
+    - node.type.mt_post
+  module:
+    - comment
+    - image
+    - text
+    - user
+id: node.mt_post.teaser
+targetEntityType: node
+bundle: mt_post
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  comment:
+    type: comment_default
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: image
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: content
+    third_party_settings: {  }
+    region: content
+  field_mt_post_category:
+    type: entity_reference_label
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_mt_banner_image: true
+  field_mt_portrait_image: true
+  field_mt_post_tags: true
+  field_mt_slideshow: true
+  field_mt_slideshow_image: true
+  field_mt_slideshow_text: true
+  field_mt_subheader_body: true
+  field_mt_video: true
+  field_tags: true

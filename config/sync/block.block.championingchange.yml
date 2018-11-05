@@ -1,0 +1,25 @@
+uuid: 2c26e047-a5f6-42bb-84d6-469d08f3e80b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:501a8521-cb9c-4019-a25a-76c2b8b2d8fb'
+  module:
+    - block_content
+  theme:
+    - magazineplus
+id: championingchange
+theme: magazineplus
+region: slogan
+weight: 0
+provider: null
+plugin: 'block_content:501a8521-cb9c-4019-a25a-76c2b8b2d8fb'
+settings:
+  id: 'block_content:501a8521-cb9c-4019-a25a-76c2b8b2d8fb'
+  label: 'Championing Change'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

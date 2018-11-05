@@ -1,0 +1,30 @@
+uuid: 71b80c38-5863-42d8-8b63-bbc2438653db
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_square_posts_carousel
+  module:
+    - system
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_square_posts_carousel_block_3
+theme: magazineplus
+region: highlighted
+weight: -23
+provider: null
+plugin: 'views_block:mt_square_posts_carousel-block_3'
+settings:
+  id: 'views_block:mt_square_posts_carousel-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

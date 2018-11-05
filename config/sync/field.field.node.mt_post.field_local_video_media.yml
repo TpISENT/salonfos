@@ -1,0 +1,28 @@
+uuid: 58a9514f-2388-4a7b-8548-b84ebe8667b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_local_video_media
+    - media.type.video
+    - node.type.mt_post
+id: node.mt_post.field_local_video_media
+field_name: field_local_video_media
+entity_type: node
+bundle: mt_post
+label: 'Local Video Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

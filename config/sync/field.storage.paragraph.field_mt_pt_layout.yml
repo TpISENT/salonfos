@@ -1,0 +1,30 @@
+uuid: cc3ff0af-5692-4c75-adaa-f4d3e90deb0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_mt_pt_layout
+field_name: field_mt_pt_layout
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'col-sm-6 col-md-3'
+      label: '25% Width'
+    -
+      value: col-md-4
+      label: '33% Width'
+    -
+      value: col-sm-6
+      label: '50% Width'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

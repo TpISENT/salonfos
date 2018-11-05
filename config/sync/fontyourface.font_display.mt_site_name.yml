@@ -1,0 +1,10 @@
+uuid: 19480bb8-e930-478e-8c3e-3daafc1693e3
+langcode: en
+status: true
+dependencies: {  }
+id: mt_site_name
+label: 'Site name'
+font_url: 'http://www.google.com/webfonts/family?family=Playfair Display&subset=latin-ext#700'
+fallback: Sans-serif
+selectors: '.sff-fyf .site-name'
+theme: magazineplus

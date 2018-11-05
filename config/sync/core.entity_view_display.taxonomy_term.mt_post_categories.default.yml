@@ -1,0 +1,32 @@
+uuid: e3c5223d-73c6-4a3b-a32a-998e8cb414dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.mt_post_categories.field_mt_pc_image
+    - taxonomy.vocabulary.mt_post_categories
+  module:
+    - image
+    - text
+id: taxonomy_term.mt_post_categories.default
+targetEntityType: taxonomy_term
+bundle: mt_post_categories
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_mt_pc_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

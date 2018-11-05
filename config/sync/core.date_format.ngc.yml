@@ -1,0 +1,8 @@
+uuid: 81e94f6a-51df-4533-b31c-baecd217bba7
+langcode: en
+status: true
+dependencies: {  }
+id: ngc
+label: NGC
+locked: false
+pattern: 'l, j F, Y'

@@ -1,0 +1,30 @@
+uuid: eac5bb7b-2432-4ea5-8ccb-5cdb9804f389
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_products
+  module:
+    - system
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_products_block_1
+theme: magazineplus
+region: featured_top
+weight: -24
+provider: null
+plugin: 'views_block:mt_products-block_1'
+settings:
+  id: 'views_block:mt_products-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,14 @@
+uuid: 4d844efe-8264-494e-a3f8-1a8bb46c86c2
+langcode: en
+status: true
+dependencies: {  }
+name: mt_post_portrait_image
+label: 'Post Portrait (750x1500)'
+effects:
+  44aaf714-a530-4ec4-a1cf-64f9b2d49dd1:
+    uuid: 44aaf714-a530-4ec4-a1cf-64f9b2d49dd1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 750
+      height: 1500

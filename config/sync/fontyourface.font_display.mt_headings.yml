@@ -1,0 +1,10 @@
+uuid: 17e47fe8-8cce-46c3-8cca-4749ec1de7d0
+langcode: en
+status: true
+dependencies: {  }
+id: mt_headings
+label: Headings
+font_url: 'http://www.google.com/webfonts/family?family=Playfair Display&subset=latin-ext#regular'
+fallback: Serif
+selectors: ".hff-fyf h1,\r\n.hff-fyf h2,\r\n.hff-fyf h3,\r\n.hff-fyf h4,\r\n.hff-fyf h5,\r\n.hff-fyf h6,\r\n.hff-fyf .tp-caption__title,\r\n.hff-fyf .tp-caption__subtitle,\r\n.hff-fyf .nav-tab__title"
+theme: magazineplus

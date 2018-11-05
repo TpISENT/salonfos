@@ -1,0 +1,30 @@
+uuid: 8dd24d0c-53c0-4b37-b093-567fe0ae27ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_latest_posts
+  module:
+    - system
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_latest_posts_block_1_2
+theme: magazineplus
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:mt_latest_posts-block_1'
+settings:
+  id: 'views_block:mt_latest_posts-block_1'
+  label: 'Latest Posts'
+  provider: views
+  label_display: visible
+  views_label: 'Latest Posts'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

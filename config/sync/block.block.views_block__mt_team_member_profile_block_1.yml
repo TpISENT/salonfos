@@ -1,0 +1,24 @@
+uuid: 2ed73f3d-8c3a-49fa-90f9-3d9e105f4543
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_team_member_profile
+  module:
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_team_member_profile_block_1
+theme: magazineplus
+region: content
+weight: -20
+provider: null
+plugin: 'views_block:mt_team_member_profile-block_1'
+settings:
+  id: 'views_block:mt_team_member_profile-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

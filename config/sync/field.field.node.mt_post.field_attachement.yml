@@ -1,0 +1,27 @@
+uuid: 2591f24b-d37c-4a58-af7d-70e02ee16004
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachement
+    - node.type.mt_post
+  module:
+    - file
+id: node.mt_post.field_attachement
+field_name: field_attachement
+entity_type: node
+bundle: mt_post
+label: Attachement
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

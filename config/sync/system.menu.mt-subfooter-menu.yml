@@ -1,0 +1,8 @@
+uuid: f16706c3-0d90-451a-9823-1df3bfa4c577
+langcode: en
+status: true
+dependencies: {  }
+id: mt-subfooter-menu
+label: Subfooter
+description: ''
+locked: false

@@ -1,0 +1,14 @@
+uuid: 7a1a6c97-c341-40bd-be45-5f86fe44238e
+langcode: en
+status: true
+dependencies: {  }
+name: mt_slideshow_thumbnail
+label: 'Slideshow thumbnail (200x110)'
+effects:
+  4f90a3c1-7116-4671-b15b-69745a541624:
+    uuid: 4f90a3c1-7116-4671-b15b-69745a541624
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 110

@@ -1,0 +1,28 @@
+uuid: cee264d3-d0dd-40c8-91e1-8a4215679722
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_post_tags
+    - node.type.mt_post
+    - taxonomy.vocabulary.mt_post_tags
+id: node.mt_post.field_mt_post_tags
+field_name: field_mt_post_tags
+entity_type: node
+bundle: mt_post
+label: 'Post Tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mt_post_tags: mt_post_tags
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

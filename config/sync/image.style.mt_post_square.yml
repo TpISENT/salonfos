@@ -1,0 +1,14 @@
+uuid: fcc3125a-6495-461a-8ffc-44579af9aebe
+langcode: en
+status: true
+dependencies: {  }
+name: mt_post_square
+label: 'Post Square'
+effects:
+  bbcea0b7-4c31-43ec-b1fe-42584755ab3c:
+    uuid: bbcea0b7-4c31-43ec-b1fe-42584755ab3c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 750
+      height: 750

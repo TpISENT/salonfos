@@ -1,0 +1,10 @@
+uuid: 46b41c6e-4d84-4d28-bd23-b36a29f07e5b
+langcode: en
+status: true
+dependencies: {  }
+id: mt_paragraph
+label: Paragraph
+font_url: 'http://www.google.com/webfonts/family?family=Playfair Display&subset=latin-ext#regular'
+fallback: Serif
+selectors: body.pff-fyf
+theme: magazineplus

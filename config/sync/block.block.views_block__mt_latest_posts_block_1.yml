@@ -1,0 +1,41 @@
+uuid: f43362ec-cb39-4e94-a908-91969173afcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_latest_posts
+  module:
+    - ctools
+    - node
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_latest_posts_block_1
+theme: magazineplus
+region: sidebar_second
+weight: -25
+provider: null
+plugin: 'views_block:mt_latest_posts-block_1'
+settings:
+  id: 'views_block:mt_latest_posts-block_1'
+  label: 'Latest Articles'
+  provider: views
+  label_display: visible
+  views_label: 'Latest Articles'
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      mt_post: mt_post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      mt_post: mt_post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

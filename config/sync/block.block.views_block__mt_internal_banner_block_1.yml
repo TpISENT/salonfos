@@ -1,0 +1,25 @@
+uuid: f1b93b98-cae1-4099-98e4-94cdf728f70e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_internal_banner
+  module:
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_internal_banner_block_1
+theme: magazineplus
+region: pre_content_first
+weight: -29
+provider: null
+plugin: 'views_block:mt_internal_banner-block_1'
+settings:
+  id: 'views_block:mt_internal_banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

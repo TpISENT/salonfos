@@ -1,0 +1,42 @@
+uuid: fccf94d1-6a3a-4aa4-bb89-61ff1e8f0c08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_pricing_table
+    - node.type.mt_product
+    - paragraphs.paragraphs_type.mt_pricing_table
+  module:
+    - entity_reference_revisions
+id: node.mt_product.field_mt_pricing_table
+field_name: field_mt_pricing_table
+entity_type: node
+bundle: mt_product
+label: 'Membership Plans'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      mt_pricing_table: mt_pricing_table
+    target_bundles_drag_drop:
+      mt_dropdown:
+        weight: 6
+        enabled: false
+      mt_main_slideshow_slide:
+        weight: 7
+        enabled: false
+      mt_media_tab:
+        weight: 8
+        enabled: false
+      mt_pricing_table:
+        enabled: true
+        weight: 9
+      mt_video_gallery_slide:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

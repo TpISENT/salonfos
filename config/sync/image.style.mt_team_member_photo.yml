@@ -1,0 +1,14 @@
+uuid: f3d8fe65-fcd2-426c-9ec7-fd82d36d06f9
+langcode: en
+status: true
+dependencies: {  }
+name: mt_team_member_photo
+label: 'Team Member Photo (870 x 450)'
+effects:
+  a3a0cac0-f378-46c3-9054-f6ed15a130c5:
+    uuid: a3a0cac0-f378-46c3-9054-f6ed15a130c5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 870
+      height: 450

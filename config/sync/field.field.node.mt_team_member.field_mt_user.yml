@@ -1,0 +1,28 @@
+uuid: 0c8312f3-2732-47f7-9074-9341e7472d18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_user
+    - node.type.mt_team_member
+id: node.mt_team_member.field_mt_user
+field_name: field_mt_user
+entity_type: node
+bundle: mt_team_member
+label: User
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

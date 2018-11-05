@@ -1,0 +1,40 @@
+uuid: 4d6562d9-b9f7-4cf6-a7e7-d1cc15e22ac1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_tabs_block:6d8791bb-3cc7-4d04-8f98-556cf9727cc4'
+  module:
+    - block_content
+    - node
+    - system
+  theme:
+    - magazineplus
+id: tabs
+theme: magazineplus
+region: sidebar_second
+weight: -28
+provider: null
+plugin: 'block_content:6d8791bb-3cc7-4d04-8f98-556cf9727cc4'
+settings:
+  id: 'block_content:6d8791bb-3cc7-4d04-8f98-556cf9727cc4'
+  label: Tabs
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      mt_post: mt_post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

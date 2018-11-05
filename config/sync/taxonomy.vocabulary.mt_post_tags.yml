@@ -1,0 +1,9 @@
+uuid: 5b2fe0a2-7fa9-4384-bc21-9ffd8557b77e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Post Tags'
+vid: mt_post_tags
+description: ''
+hierarchy: 0
+weight: 0

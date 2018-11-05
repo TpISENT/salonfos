@@ -1,0 +1,23 @@
+uuid: a6cfd23f-4aae-49d0-8849-b32029d4efc7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: post_and_article
+label: 'Post and Article'
+type: 'canonical_entities:node'
+pattern: '[node:field_mt_post_category]/[node:created:html_date]/[node:title]'
+selection_criteria:
+  fcccbfbc-ab39-4467-a4cc-5da5e85bb7dd:
+    id: node_type
+    bundles:
+      article: article
+      mt_post: mt_post
+    negate: false
+    context_mapping:
+      node: node
+    uuid: fcccbfbc-ab39-4467-a4cc-5da5e85bb7dd
+selection_logic: and
+weight: -5
+relationships: {  }

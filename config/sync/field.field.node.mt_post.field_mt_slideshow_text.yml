@@ -1,0 +1,21 @@
+uuid: c94f2490-a755-424a-bc69-e5165ff868b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_slideshow_text
+    - node.type.mt_post
+  module:
+    - text
+id: node.mt_post.field_mt_slideshow_text
+field_name: field_mt_slideshow_text
+entity_type: node
+bundle: mt_post
+label: 'Slideshow text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

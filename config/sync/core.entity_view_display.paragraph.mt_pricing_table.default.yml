@@ -1,0 +1,29 @@
+uuid: fc28722d-d99f-41c6-9b02-6b96aa43754b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.mt_pricing_table.field_mt_pt_feature
+    - field.field.paragraph.mt_pricing_table.field_mt_pt_layout
+    - field.field.paragraph.mt_pricing_table.field_mt_pt_link
+    - field.field.paragraph.mt_pricing_table.field_mt_pt_price
+    - field.field.paragraph.mt_pricing_table.field_mt_pt_title
+    - paragraphs.paragraphs_type.mt_pricing_table
+id: paragraph.mt_pricing_table.default
+targetEntityType: paragraph
+bundle: mt_pricing_table
+mode: default
+content:
+  field_mt_pt_feature:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_mt_pt_layout: true
+  field_mt_pt_link: true
+  field_mt_pt_price: true
+  field_mt_pt_title: true

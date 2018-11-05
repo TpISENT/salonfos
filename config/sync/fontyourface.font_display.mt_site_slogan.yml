@@ -1,0 +1,10 @@
+uuid: 7bc437c8-8508-4e7b-8860-583c14f615ab
+langcode: en
+status: true
+dependencies: {  }
+id: mt_site_slogan
+label: 'Site slogan'
+font_url: 'http://www.google.com/webfonts/family?family=Playfair Display&subset=latin-ext#regular'
+fallback: Serif
+selectors: '.slff-fyf .site-slogan'
+theme: magazineplus
