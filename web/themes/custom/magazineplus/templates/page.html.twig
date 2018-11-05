@@ -281,7 +281,7 @@
       <div class="{{ pre_banner_layout_container }}">
         {# pre_banner__container #}
         <div class="clearfix pre_banner__container>
-          <div class="row">
+          <div class="container">
             {% if page.pre_banner_left %}
               <div class="{{ pre_banner_left_grid_class }}">
                 {# pre-banner-left #}
@@ -546,7 +546,7 @@
       <div class="{{ video_content_layout_container }}">
         {# video_content__container #}
         <div class="clearfix video_content__container>
-          <div class="row">
+          <div class="container">
             {% if page.video_content_left %}
               <div class="{{ video_content_left_grid_class }}">
                 {# video-content-left #}
@@ -573,7 +573,7 @@
     </div>
     {# EOF: video-content #}
   {% endif %}
-  
+
   {% if page.content_bottom_first or page.content_bottom_second %}
     {# content-bottom #}
     <div class="clearfix content-bottom {{ content_bottom_background_color }} {{ content_bottom_separator }}{{ (content_bottom_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (content_bottom_region_paddings) ? ' region--no-paddings' : '' }}">
