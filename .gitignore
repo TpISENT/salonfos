@@ -14,6 +14,9 @@ web/core
 
 # Ignore paths that contain user-generated content.
 web/sites/*/files
+web/sites/default/files
+/web/sites/*/files
+/web/sites/default/files
 /files-private
 web/sites/*/private
 
