@@ -73,6 +73,7 @@
  * @see template_preprocess_page()
  * @see html.html.twig
  */
+
 #}
 {% if page.slideout %}
   {# slideout #}
@@ -210,7 +211,7 @@
     </div>
     {# EOF:slogan #}
   {% endif %}
-		
+
       {% if page.header_first or page.header or page.header_third %}
         {# header #}
         <header role="banner" class="clearfix header {{ header_background_color }} {{ header_layout_container_class }} {{ header_layout_columns_class }}{{ (header_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (header_region_paddings) ? ' region--no-paddings' : '' }}">
@@ -273,7 +274,42 @@
     {# EOF: header-container #}
   {% endif %}
 
-  
+
+  {% if page.pre_banner_left or page.pre_banner_right %}
+    {# pre-banner #}
+    <div class="clearfix pre_banner {{ pre_banner_regions }} {{ pre_banner_background_color }} {{ pre_banner_separator }}{{ (pre_banner_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (pre_banner_region_paddings) ? ' region--no-paddings' : '' }}">
+      <div class="{{ pre_banner_layout_container }}">
+        {# pre_banner__container #}
+        <div class="clearfix pre_banner__container>
+          <div class="row">
+            {% if page.pre_banner_left %}
+              <div class="{{ pre_banner_left_grid_class }}">
+                {# pre-banner-left #}
+                <div class="clearfix pre-banner__section pre-banner-left">
+                  {{ page.pre_banner_left }}
+                </div>
+                {# EOF:pre-banner-left #}
+              </div>
+            {% endif %}
+
+            {% if page.pre_banner_right %}
+              <div class="{{ pre_banner_right_grid_class }}">
+                {# pre-banner-right #}
+                <div class="clearfix pre-banner__section pre-banner-right">
+                  {{ page.pre_banner_right }}
+                </div>
+                {# EOF:pre-banner-right #}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+        {# EOF: pre-banner__container #}
+      </div>
+    </div>
+    {# EOF: pre-banner #}
+  {% endif %}
+
+
   {% if page.above_banner %}
     {# above_banner #}
     <div class="clearfix above_banner {{ above_banner_background_color }}{{ (above_banner_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (above_banner_region_paddings) ? ' region--no-paddings' : '' }}">
@@ -293,7 +329,7 @@
     </div>
     {# EOF:above_banner #}
   {% endif %}
-	
+
   {% if page.banner %}
     {# banner #}
     <div class="clearfix banner {{ banner_background_color }}{{ (banner_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (banner_region_paddings) ? ' region--no-paddings' : '' }}">
