@@ -124,7 +124,7 @@ header.header.region--white-background {
   }
   .layout-sidebar-first .main-content__section {
     padding-left: 35px;
-  } 
+  }
 }
 @media (max-width: 991px) {
   .sidebar__section {
@@ -537,4 +537,8 @@ header.header.region--white-background {
     margin-left: 0;
     margin-right: 0;
   }
+}
+
+.pre_banner__container{
+  margin-top:20px;
 }

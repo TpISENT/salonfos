@@ -77,3 +77,7 @@
   height: 0;
   background-color: transparent;
 }
+
+.view-posts-grid .views-row {
+    margin-bottom: 15px;
+}
