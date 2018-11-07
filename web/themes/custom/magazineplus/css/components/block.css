@@ -56,7 +56,9 @@
 .region--no-block-paddings .block + .block {
   padding: 0;
 }
-
+.pre_banner__container .col-md-12,
+.pre_banner__container .col-sm-12,
+.pre_banner__container .col-md-6
 .pre_banner__container .col-sm-6{
   padding: 0 5px;
 }
