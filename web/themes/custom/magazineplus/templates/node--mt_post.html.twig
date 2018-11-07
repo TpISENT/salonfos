@@ -220,5 +220,13 @@
   <div class="node__main-content-section">
     {{ content|without('links', 'field_mt_post_category', 'comment') }}
   </div>
+  <div>
+  {% if display_submitted %}
+    <div class="node__user-info">
+      <div class="user-name">{{ author_name }} | {{ node.uid.entity.field_twitter.value }} | {{ node.uid.entity.mail.value }} </div>
+      {{ metadata }}
+    </div>
+  {% endif %}
+  </div>
   {{ content.comment }}
 {% endblock %}
