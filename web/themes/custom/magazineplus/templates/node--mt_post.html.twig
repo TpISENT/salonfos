@@ -223,7 +223,7 @@
   <div>
   {% if display_submitted %}
     <div class="node__user-info">
-      <div class="user-name">{{ author_name }} | {{ node.uid.entity.field_twitter.value }} | {{ node.uid.entity.mail.value }} </div>
+      <div class="user-name">{{ author_name }} | <a href="https://twitter.com/{{ node.uid.entity.field_twitter_profile.value }}">{{ node.uid.entity.field_twitter_profile.value }}</a> | <a href="mailto:{{ node.uid.entity.mail.value }}">{{ node.uid.entity.mail.value }}</a> </div>
       {{ metadata }}
     </div>
   {% endif %}
