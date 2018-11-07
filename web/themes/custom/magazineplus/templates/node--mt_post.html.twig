@@ -189,7 +189,7 @@
 {% block meta_area %}
   {% if display_submitted %}
     <div class="node__user-info">
-      <div class="user-name">{% trans %}<span>by </span> {% endtrans %}{{ author_name }}</div>
+      <div class="user-name">{% trans %}<span>By </span> {% endtrans %}{{ author_name }} | {{ node.uid.entity.field_organization.value }} </div>
       {{ metadata }}
     </div>
   {% endif %}

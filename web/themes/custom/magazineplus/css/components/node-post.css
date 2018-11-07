@@ -19,7 +19,7 @@
 }
 .node--type-mt-post .node__user-info .username {
   font-style: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 400;
 }
 .node--type-mt-post .node__meta {
