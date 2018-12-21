@@ -195,21 +195,22 @@
 {% if page.donate or page.slogan or page.subscribe %}
 <div class="container">
 {% if page.donate %}
-<div class="{{ donate_grid_class }}">
-  {# donate #}
+<div class="{{ donate }}">
+  {# subscribe #}
   <div class="col-md-3">
-  <div class="donate__section donate">
-    {{ page.donate }}
+    <div class="donate__section">
+      {{ page.donate }}
+    </div>
   </div>
-  </div>
-  {# EOF:donate #}
+  {# EOF:subscribe #}
 </div>
 {% endif %}
 
+
 {% if page.slogan %}
-<div class="{{ slogan_layout_container }}">
+<div class="{{ slogan }}">
   {# slogan__container #}
-  <div class="clearfix slogan__section">
+  <div class="slogan__section">
       <div class="col-md-6">
         <div class="slogan__section">
           {{ page.slogan }}
