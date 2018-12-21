@@ -246,7 +246,7 @@ select:focus {
 
 /* components: image overlay */
 .overlay--colored {
-  background-color: rgba(255, 173,0, .08);
+  background-color: rgba(0, 0,0, 0.4);
 }
 
 /*.overlay--visible.overlay--colored {
@@ -258,7 +258,7 @@ select:focus {
 .overlay-container .overlay-content .views-field-title h5 a {
     color: #2d2d2d;
     padding:5px;
-    text-shadow: 1px 1px 1px #fff!important;
+    /*text-shadow: 1px 1px 1px #000!important;*/
 }
 
 .overlay-container .overlay-content .views-field-title h5 {
