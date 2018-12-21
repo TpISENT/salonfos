@@ -264,8 +264,12 @@ select:focus {
     font-size: 18px;
     line-height: 1.25;
     margin-top: 10px;
-    background-color: rgba(255, 173, 0, 1);
-    
+    /*background-color: rgba(255, 173, 0, 1);*/
+}
+.overlay-container .overlay-content .views-field-title h5.salonfos-title  {
+    background-color: rgba(255, 173, 0, 1)
+}
+
 
 /* components: language switcher */
 .region--dark-typography .block-language ul li .is-active {
@@ -536,7 +540,7 @@ li.pager__item.is-active a {
 }
 
 .block-views-block-mt-posts-masonry-block-2 .views-field-title a{
-color:#000036 ! important; 
+color:#000036 ! important;
 }
 
 #block-views-block-mt-posts-grid-block-1 .overlay--visible.overlay--colored{
