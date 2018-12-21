@@ -258,18 +258,24 @@ select:focus {
 .overlay-container .overlay-content .views-field-title h5 a {
     color: #2d2d2d;
     padding:5px;
+    text-shadow: 1px 1px 1px #fff!important;
 }
 
 .overlay-container .overlay-content .views-field-title h5 {
     font-size: 18px;
     line-height: 1.25;
     margin-top: 10px;
-    /*background-color: rgba(255, 173, 0, 1);*/
+    background-color: rgba(255, 173, 0, 1);
 }
 .overlay-container .overlay-content .views-field-title h5.salonfos-title  {
-    background-color: rgba(255, 173, 0, 1)
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
+.overlay-container .overlay-content .views-field-title h5.salonfos-title a {
+    color: #ffffff;
+    padding:5px;
+    text-shadow: 1px 1px 1px #000!important;
+}
 
 /* components: language switcher */
 .region--dark-typography .block-language ul li .is-active {
