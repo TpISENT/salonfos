@@ -192,25 +192,48 @@
         {# EOF: header-top #}
       {% endif %}
 
-	{% if page.slogan %}
-    {# slogan #}
-    <div class="clearfix slogan {{ slogan_background_color }}{{ (slogan_blocks_paddings) ? ' region--no-block-paddings' : '' }}{{ (slogan_region_paddings) ? ' region--no-paddings' : '' }}">
-      <div class="{{ slogan_layout_container }}">
-        {# slogan__container #}
-        <div class="clearfix slogan__container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="slogan__section">
-                {{ page.slogan }}
-              </div>
-            </div>
-          </div>
+{% if page.donate or page.slogan or page.subscribe %}
+<div class="row">
+{% if page.donate %}
+<div class="{{ donate_grid_class }}">
+  {# donate #}
+  <div class="col-md-3">
+  <div class="donate__section donate">
+    {{ page.donate }}
+  </div>
+  </div>
+  {# EOF:donate #}
+</div>
+{% endif %}
+
+{% if page.slogan %}
+<div class="{{ slogan_layout_container }}">
+  {# slogan__container #}
+  <div class="clearfix slogan__section">
+      <div class="col-md-6">
+        <div class="slogan__section">
+          {{ page.slogan }}
         </div>
-        {# EOF: slogan__container #}
       </div>
+  </div>
+  {# EOF: slogan__container #}
+</div>
+{% endif %}
+
+{% if page.subscribe %}
+<div class="{{ subscribe }}">
+  {# subscribe #}
+  <div class="col-md-3">
+    <div class="subscribe__section donate">
+      {{ page.subscribe }}
     </div>
-    {# EOF:slogan #}
-  {% endif %}
+  </div>
+  {# EOF:subscribe #}
+</div>
+{% endif %}
+
+</div>
+{% endif %}
 
       {% if page.header_first or page.header or page.header_third %}
         {# header #}
