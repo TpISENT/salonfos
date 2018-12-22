@@ -81,7 +81,7 @@ a.link--bordered:hover,
 .region--light-typography a.link--bordered:hover,
 .region--light-typography .link--bordered a:hover {
   border-color: transparent;
-  text-decoration: none;  
+  text-decoration: none;
 }
 a.link--hover-style-2,
 .link--hover-style-2 a {
@@ -311,7 +311,7 @@ h6 {
   font-size: 18px;
 }
 h1.title {
-  margin-top: 0;
+  margin-top: 20px;
 }
 h1.page-title {
   margin-bottom: 20px;
