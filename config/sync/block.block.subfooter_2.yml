@@ -1,0 +1,24 @@
+uuid: df6a415e-d5b0-474b-a0f8-6d8b838962d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.mt-subfooter-menu
+  module:
+    - system
+  theme:
+    - salonfos
+id: subfooter_2
+theme: salonfos
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:mt-subfooter-menu'
+settings:
+  id: 'system_menu_block:mt-subfooter-menu'
+  label: Subfooter
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

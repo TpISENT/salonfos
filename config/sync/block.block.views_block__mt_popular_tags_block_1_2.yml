@@ -1,0 +1,24 @@
+uuid: d2e68864-b47f-416c-8686-8d21ea7e8571
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_popular_tags
+  module:
+    - views
+  theme:
+    - salonfos
+id: views_block__mt_popular_tags_block_1_2
+theme: salonfos
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'views_block:mt_popular_tags-block_1'
+settings:
+  id: 'views_block:mt_popular_tags-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

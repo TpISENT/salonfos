@@ -1,0 +1,30 @@
+uuid: 2a0017f3-effa-4bcd-874b-b4fd0a369f3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_posts_grid
+  module:
+    - system
+    - views
+  theme:
+    - salonfos
+id: views_block__mt_posts_grid_block_3_2
+theme: salonfos
+region: content_top_highlighted
+weight: -17
+provider: null
+plugin: 'views_block:mt_posts_grid-block_3'
+settings:
+  id: 'views_block:mt_posts_grid-block_3'
+  label: 'Popular News'
+  provider: views
+  label_display: visible
+  views_label: 'Popular News'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front> '
+    negate: false
+    context_mapping: {  }

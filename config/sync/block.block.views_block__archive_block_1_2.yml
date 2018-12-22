@@ -1,0 +1,24 @@
+uuid: 7476d96e-3643-4a3c-a8f6-c7dcc731d947
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.archive
+  module:
+    - views
+  theme:
+    - salonfos
+id: views_block__archive_block_1_2
+theme: salonfos
+region: hidden_blocks_collection
+weight: 0
+provider: null
+plugin: 'views_block:archive-block_1'
+settings:
+  id: 'views_block:archive-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

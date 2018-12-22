@@ -1,0 +1,25 @@
+uuid: 2ea47362-3e60-4702-8787-34baa4b5c8d9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:38e5e567-7084-46f2-b7b0-104a0fcd6d05'
+  module:
+    - block_content
+  theme:
+    - magazineplus
+id: subscription
+theme: magazineplus
+region: subscribe
+weight: 0
+provider: null
+plugin: 'block_content:38e5e567-7084-46f2-b7b0-104a0fcd6d05'
+settings:
+  id: 'block_content:38e5e567-7084-46f2-b7b0-104a0fcd6d05'
+  label: Subscription
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

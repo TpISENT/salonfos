@@ -1,0 +1,22 @@
+uuid: f9ab4e27-85e5-4fca-b93b-290f11bebb65
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - salonfos
+_core:
+  default_config_hash: DaYuXGwPFJTOWq3llcxqRGRtywR4X5Yq_de3biEVUoQ
+id: salonfos_messages
+theme: salonfos
+region: system_messages
+weight: -17
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

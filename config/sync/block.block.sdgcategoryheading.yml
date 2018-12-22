@@ -1,0 +1,31 @@
+uuid: a365bb74-e8f1-43db-9241-ab3ba3919049
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fe112ac0-f62c-4ad9-9ec5-d75729598c74'
+  module:
+    - block_content
+    - system
+  theme:
+    - magazineplus
+id: sdgcategoryheading
+theme: magazineplus
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:fe112ac0-f62c-4ad9-9ec5-d75729598c74'
+settings:
+  id: 'block_content:fe112ac0-f62c-4ad9-9ec5-d75729598c74'
+  label: 'SDG Category Heading'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /sdgs
+    negate: false
+    context_mapping: {  }

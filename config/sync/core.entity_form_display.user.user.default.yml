@@ -5,11 +5,14 @@ dependencies:
   config:
     - field.field.user.user.field_first_name
     - field.field.user.user.field_full_name
+    - field.field.user.user.field_organization
     - field.field.user.user.field_surname
+    - field.field.user.user.field_twitter_profile
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
+    - path
     - user
 _core:
   default_config_hash: LLAieeozVsoZDb-2PbFxRJpQqnKmpR7-4OoRJnduz-U
@@ -24,7 +27,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   contact:
-    weight: 6
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -44,6 +47,14 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_organization:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_surname:
     weight: 3
     settings:
@@ -52,13 +63,32 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_twitter_profile:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  google_analytics:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   language:
-    weight: 5
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
   timezone:
-    weight: 7
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -68,6 +98,6 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-    weight: 4
+    weight: 7
     region: content
 hidden: {  }

@@ -1,0 +1,30 @@
+uuid: b5261f74-ee88-4e6d-b191-a0810f6e2041
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_posts_slider
+  module:
+    - system
+    - views
+  theme:
+    - salonfos
+id: views_block__mt_posts_slider_block_1_2
+theme: salonfos
+region: featured_top
+weight: 0
+provider: null
+plugin: 'views_block:mt_posts_slider-block_1'
+settings:
+  id: 'views_block:mt_posts_slider-block_1'
+  label: 'Latest from our columnists'
+  provider: views
+  label_display: visible
+  views_label: 'Latest from our columnists'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

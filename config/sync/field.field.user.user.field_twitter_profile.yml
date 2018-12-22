@@ -1,0 +1,22 @@
+uuid: a10a70d1-0f6b-4c16-ac35-40923523c5b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_twitter_profile
+  module:
+    - user
+id: user.user.field_twitter_profile
+field_name: field_twitter_profile
+entity_type: user
+bundle: user
+label: 'Twitter Profile'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '@salonfos'
+default_value_callback: ''
+settings: {  }
+field_type: string

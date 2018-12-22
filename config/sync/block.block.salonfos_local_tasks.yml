@@ -1,0 +1,22 @@
+uuid: 19082b03-c844-424f-8aff-c7f833961464
+langcode: en
+status: true
+dependencies:
+  theme:
+    - salonfos
+_core:
+  default_config_hash: R-b1YPls9Um9C7DdI8T-v3WfeSimQamqhbfV5t-iDq4
+id: salonfos_local_tasks
+theme: salonfos
+region: content
+weight: -10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

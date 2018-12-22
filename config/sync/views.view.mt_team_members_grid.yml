@@ -773,3 +773,50 @@ display:
         - 'config:field.storage.node.field_mt_twitter_account'
         - 'config:field.storage.node.field_mt_user'
         - 'config:field.storage.node.field_mt_youtube_account'
+  block_2:
+    display_plugin: block
+    id: block_2
+    display_title: 'Featured Columnists Block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      block_description: 'Featured Columnists Team Members'
+      display_description: 'Featured Columnists'
+      pager:
+        type: some
+        options:
+          items_per_page: 2
+          offset: 0
+      defaults:
+        pager: false
+        relationships: false
+        style: false
+        row: false
+      relationships: {  }
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: 'col-md-4 col-sm-6'
+          default_row_class: true
+      row:
+        type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: true
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_mt_facebook_account'
+        - 'config:field.storage.node.field_mt_member_photo'
+        - 'config:field.storage.node.field_mt_twitter_account'
+        - 'config:field.storage.node.field_mt_user'
+        - 'config:field.storage.node.field_mt_youtube_account'

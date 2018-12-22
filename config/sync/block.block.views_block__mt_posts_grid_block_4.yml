@@ -1,22 +1,22 @@
-uuid: 42478675-51a1-4e8a-97e1-9e9e7fffaa7b
+uuid: 9ab8ac8b-c8bd-4bb2-ad4f-5961f8aeaabf
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.mt_slideshow_boxed_width
+    - views.view.mt_posts_grid
   module:
     - system
     - views
   theme:
     - magazineplus
-id: views_block__mt_slideshow_boxed_width_block_1
+id: views_block__mt_posts_grid_block_4
 theme: magazineplus
-region: system_messages
-weight: -25
+region: pre_banner_left
+weight: 0
 provider: null
-plugin: 'views_block:mt_slideshow_boxed_width-block_1'
+plugin: 'views_block:mt_posts_grid-block_4'
 settings:
-  id: 'views_block:mt_slideshow_boxed_width-block_1'
+  id: 'views_block:mt_posts_grid-block_4'
   label: ''
   provider: views
   label_display: '0'
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/blocks\r\n<front>"
+    pages: '<front>'
     negate: false
     context_mapping: {  }

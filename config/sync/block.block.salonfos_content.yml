@@ -1,0 +1,22 @@
+uuid: f67ff693-86df-43ac-ba34-a53f98cceb15
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - salonfos
+_core:
+  default_config_hash: k_4tJO1SPNev_tPKmqj7ZTWD-I0cPLVPwYcEQu_cmbA
+id: salonfos_content
+theme: salonfos
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: ff8cf259-0d59-4a5b-83a6-78a1d190071b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: columnists
+label: Columnists
+type: 'canonical_entities:user'
+pattern: 'columnists/[user:display-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

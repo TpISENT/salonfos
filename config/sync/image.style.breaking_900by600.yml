@@ -1,0 +1,14 @@
+uuid: 8169922b-c199-495d-b302-5b473073fbda
+langcode: en
+status: true
+dependencies: {  }
+name: breaking_900by600
+label: breaking-900by600
+effects:
+  b8bc737a-bea6-4d93-a454-c3f5babcd161:
+    uuid: b8bc737a-bea6-4d93-a454-c3f5babcd161
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 570
+      height: 400

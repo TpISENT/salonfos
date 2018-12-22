@@ -1,0 +1,30 @@
+uuid: a8d78e58-6e50-465d-b081-007f16085796
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_posts_carousel
+  module:
+    - system
+    - views
+  theme:
+    - salonfos
+id: views_block__mt_posts_carousel_block_2_2
+theme: salonfos
+region: content_top_highlighted
+weight: -18
+provider: null
+plugin: 'views_block:mt_posts_carousel-block_2'
+settings:
+  id: 'views_block:mt_posts_carousel-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/fullscreen-slideshow\r\n/alternative-header-2\r\n/video-gallery-slideshow\r\n/blocks\r\n/mega-menu"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: 8b868f46-c985-409e-973a-3ab64df10592
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_user_posts
+  module:
+    - system
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_user_posts_block_2
+theme: magazineplus
+region: featured_top
+weight: 0
+provider: null
+plugin: 'views_block:mt_user_posts-block_2'
+settings:
+  id: 'views_block:mt_user_posts-block_2'
+  label: 'Our Featured Columnists'
+  provider: views
+  label_display: visible
+  views_label: 'Our Featured Columnists'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -82,7 +82,7 @@ display:
           row_class: ''
           default_row_class: true
           type: ul
-          wrapper_class: slider-revolution
+          wrapper_class: ''
           class: ''
       row:
         type: fields
@@ -1035,6 +1035,55 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
+      style:
+        type: html_list
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          type: ul
+          wrapper_class: slider-revolution
+          class: ''
+      defaults:
+        style: false
+        row: false
+      row:
+        type: fields
+        options: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_mt_bg_video_vimeo'
+        - 'config:field.storage.node.field_mt_bg_video_volume'
+        - 'config:field.storage.node.field_mt_bg_video_youtube'
+        - 'config:field.storage.node.field_mt_post_category'
+        - 'config:field.storage.node.field_mt_slideshow_image'
+        - 'config:field.storage.node.field_mt_slideshow_path'
+        - 'config:field.storage.node.field_mt_slideshow_text'
+  block_2:
+    display_plugin: block
+    id: block_2
+    display_title: 'One Breaking News'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      block_description: 'One Breaking News'
+      display_description: ''
+      pager:
+        type: some
+        options:
+          items_per_page: 1
+          offset: 0
+      defaults:
+        pager: false
+        css_class: false
+      css_class: ''
     cache_metadata:
       max-age: -1
       contexts:

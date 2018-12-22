@@ -1,0 +1,25 @@
+uuid: 1ab93380-6aa7-4f20-a724-6b6fdce30f63
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:501a8521-cb9c-4019-a25a-76c2b8b2d8fb'
+  module:
+    - block_content
+  theme:
+    - salonfos
+id: championingchange_2
+theme: salonfos
+region: slogan
+weight: 0
+provider: null
+plugin: 'block_content:501a8521-cb9c-4019-a25a-76c2b8b2d8fb'
+settings:
+  id: 'block_content:501a8521-cb9c-4019-a25a-76c2b8b2d8fb'
+  label: 'Championing Change'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

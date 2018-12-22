@@ -1,0 +1,25 @@
+uuid: e5f78ec6-477d-43dc-905b-2f251f606d97
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2173ccfa-7f63-4412-bf19-ae5c91ca7110'
+  module:
+    - block_content
+  theme:
+    - salonfos
+id: copyright_2
+theme: salonfos
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: 'block_content:2173ccfa-7f63-4412-bf19-ae5c91ca7110'
+settings:
+  id: 'block_content:2173ccfa-7f63-4412-bf19-ae5c91ca7110'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 3fa7bf2f-b7d3-407c-9aa5-21ee775113f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_internal_banner
+  module:
+    - views
+  theme:
+    - salonfos
+id: views_block__mt_internal_banner_block_1_2
+theme: salonfos
+region: pre_content_first
+weight: 0
+provider: null
+plugin: 'views_block:mt_internal_banner-block_1'
+settings:
+  id: 'views_block:mt_internal_banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

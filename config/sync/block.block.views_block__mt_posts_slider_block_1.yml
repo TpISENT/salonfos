@@ -1,6 +1,6 @@
 uuid: bc7b932a-4090-4d28-a2d0-aee6abd382ab
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.mt_posts_slider

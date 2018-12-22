@@ -1,0 +1,22 @@
+uuid: 2edff9de-673f-4c14-b580-09b535061846
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - salonfos
+_core:
+  default_config_hash: cG8OW-O5MW3-D6xyzvtdIWtEDfGyv9XDSZlGxHgwSBs
+id: salonfos_help
+theme: salonfos
+region: content
+weight: -13
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

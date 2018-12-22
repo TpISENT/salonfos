@@ -17,10 +17,10 @@ provider: null
 plugin: 'views_block:mt_photo_gallery-block_1'
 settings:
   id: 'views_block:mt_photo_gallery-block_1'
-  label: World
+  label: ''
   provider: views
-  label_display: visible
-  views_label: World
+  label_display: '0'
+  views_label: ''
   items_per_page: none
 visibility:
   request_path:

@@ -1,0 +1,31 @@
+uuid: dd643740-67e4-46d5-84d4-8c82610cb04b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9255c775-9bbd-4174-9e89-4edb57e88736'
+  module:
+    - block_content
+    - system
+  theme:
+    - salonfos
+id: featurednews_2
+theme: salonfos
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:9255c775-9bbd-4174-9e89-4edb57e88736'
+settings:
+  id: 'block_content:9255c775-9bbd-4174-9e89-4edb57e88736'
+  label: 'Featured News'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -4,6 +4,11 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_full_name
+    - field.field.user.user.field_organization
+    - field.field.user.user.field_surname
+    - field.field.user.user.field_twitter_profile
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -26,4 +31,10 @@ content:
     label: hidden
     region: content
 hidden:
+  field_first_name: true
+  field_full_name: true
+  field_organization: true
+  field_surname: true
+  field_twitter_profile: true
   member_for: true
+  realname: true

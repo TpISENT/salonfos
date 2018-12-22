@@ -35,7 +35,7 @@ content_top_animation_effect: fadeIn
 content_top_blocks_paddings: 1
 content_top_region_paddings: 0
 content_top_highlighted_layout_container: container
-content_top_highlighted_separator: region--no-separator
+content_top_highlighted_separator: region--separator-border-top
 content_top_highlighted_background_color: 'region--dark-typography region--white-background'
 content_top_highlighted_animation_effect: fadeIn
 content_top_highlighted_blocks_paddings: 1

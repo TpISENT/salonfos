@@ -1,0 +1,25 @@
+uuid: 4e3acb0c-6342-413e-99fa-72c26b8a818d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:636ae31f-d6e9-4a65-8319-346b92356abd'
+  module:
+    - block_content
+  theme:
+    - salonfos
+id: socialiconsheadertophighlighted_2
+theme: salonfos
+region: header_top_second
+weight: 0
+provider: null
+plugin: 'block_content:636ae31f-d6e9-4a65-8319-346b92356abd'
+settings:
+  id: 'block_content:636ae31f-d6e9-4a65-8319-346b92356abd'
+  label: 'Social Icons (header top highlighted)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

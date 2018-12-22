@@ -1,0 +1,23 @@
+uuid: f9d7cf1c-68f8-4f95-9e54-b479e13e8e73
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: all_pages
+label: 'All Pages'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  3bc55a05-f0b6-43a0-ab94-7256ca8fdbc5:
+    id: node_type
+    bundles:
+      mt_slideshow_entry: mt_slideshow_entry
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 3bc55a05-f0b6-43a0-ab94-7256ca8fdbc5
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,30 @@
+uuid: a405db5d-291a-4ea0-baca-14b41f8599d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_posts_grid
+  module:
+    - system
+    - views
+  theme:
+    - magazineplus
+id: views_block__mt_posts_grid_block_5
+theme: magazineplus
+region: pre_banner_right
+weight: 0
+provider: null
+plugin: 'views_block:mt_posts_grid-block_5'
+settings:
+  id: 'views_block:mt_posts_grid-block_5'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

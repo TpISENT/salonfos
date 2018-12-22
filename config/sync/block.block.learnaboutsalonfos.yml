@@ -1,0 +1,31 @@
+uuid: 8234ffa4-eb8c-4532-9294-c7ed25f104a0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:41827146-c072-4f22-802c-560aa2750f6c'
+  module:
+    - block_content
+    - system
+  theme:
+    - salonfos
+id: learnaboutsalonfos
+theme: salonfos
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:41827146-c072-4f22-802c-560aa2750f6c'
+settings:
+  id: 'block_content:41827146-c072-4f22-802c-560aa2750f6c'
+  label: 'About Us (Content Top)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: 429d8a7b-6cfc-41d8-aba0-ddca4b069056
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mt_team_member
+id: node.mt_team_member.status
+field_name: status
+entity_type: node
+bundle: mt_team_member
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

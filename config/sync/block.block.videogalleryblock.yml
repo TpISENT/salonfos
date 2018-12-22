@@ -11,7 +11,7 @@ dependencies:
     - magazineplus
 id: videogalleryblock
 theme: magazineplus
-region: content
+region: video_content_right
 weight: -24
 provider: null
 plugin: 'block_content:d00886a1-d8d8-4f00-b4a7-b879078267c1'

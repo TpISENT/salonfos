@@ -7,6 +7,7 @@ dependencies:
   module:
     - ctools
     - node
+    - system
     - views
   theme:
     - magazineplus
@@ -39,3 +40,8 @@ visibility:
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: "/user/*\r\n/columnists/*"
+    negate: false
+    context_mapping: {  }

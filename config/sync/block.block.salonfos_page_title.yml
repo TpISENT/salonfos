@@ -1,0 +1,27 @@
+uuid: ab550ea0-8e19-4faf-b361-866eb68fb60b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - salonfos
+_core:
+  default_config_hash: cusYr1ypEaG7PJy5W4hYSQQ2jC-q0SsQNu7EcmbdBrc
+id: salonfos_page_title
+theme: salonfos
+region: highlighted
+weight: -13
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/15\r\n/alternative-header-2\r\n/video-gallery-slideshow\r\n/mega-menu\r\n/user/*"
+    negate: true
+    context_mapping: {  }

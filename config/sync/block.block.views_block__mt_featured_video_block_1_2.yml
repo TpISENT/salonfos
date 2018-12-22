@@ -1,0 +1,32 @@
+uuid: f779a8d0-270b-4bff-b8da-f11461af612e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_featured_video
+  module:
+    - ctools
+    - views
+  theme:
+    - salonfos
+id: views_block__mt_featured_video_block_1_2
+theme: salonfos
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'views_block:mt_featured_video-block_1'
+settings:
+  id: 'views_block:mt_featured_video-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      mt_post: mt_post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

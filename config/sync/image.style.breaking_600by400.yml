@@ -1,0 +1,14 @@
+uuid: cfb4c625-666d-4da5-b21a-3c166c105b85
+langcode: en
+status: true
+dependencies: {  }
+name: breaking_600by400
+label: breaking-600by400
+effects:
+  f480c5e6-fd03-47a9-aa3f-201a8e94ea9b:
+    uuid: f480c5e6-fd03-47a9-aa3f-201a8e94ea9b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 850
+      height: 490

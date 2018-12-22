@@ -1,0 +1,33 @@
+uuid: 965263e8-55ff-4af4-acd8-09ec059e0571
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_team_members_list
+  module:
+    - ctools
+    - views
+  theme:
+    - salonfos
+id: views_block__mt_team_members_list_block_1_2
+theme: salonfos
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:mt_team_members_list-block_1'
+settings:
+  id: 'views_block:mt_team_members_list-block_1'
+  label: 'Our Columnists'
+  provider: views
+  label_display: visible
+  views_label: 'Our Columnists'
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      mt_team_member: mt_team_member
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,25 @@
+uuid: 9be23620-058b-4d7f-b04d-77e93616473b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b10d8377-943b-4b25-8ce3-29fcae12dabb'
+  module:
+    - block_content
+  theme:
+    - magazineplus
+id: donate
+theme: magazineplus
+region: donate
+weight: 0
+provider: null
+plugin: 'block_content:b10d8377-943b-4b25-8ce3-29fcae12dabb'
+settings:
+  id: 'block_content:b10d8377-943b-4b25-8ce3-29fcae12dabb'
+  label: Donate
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
