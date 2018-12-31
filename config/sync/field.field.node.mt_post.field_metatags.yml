@@ -1,0 +1,21 @@
+uuid: a62cde85-6901-4cb7-99c8-31cbf80aaac9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatags
+    - node.type.mt_post
+  module:
+    - metatag
+id: node.mt_post.field_metatags
+field_name: field_metatags
+entity_type: node
+bundle: mt_post
+label: Metatags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

@@ -1,0 +1,17 @@
+uuid: c4ddcf3d-d91f-4122-8740-d6ecd1b63c21
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  shortlink: '[site:url]'
+  title: 'Salon Fos | The official National Grand Coalition (NGC) of Sierra Leone  Newspaper | Championing Change | Hope, Opportunity & Transformation'
+  abstract: 'Salon Fos is the official National Grand Coalition (NGC) of Sierra Leone  Newspaper. We are championing Change, Hope, Opportunity & Transformation'
+  keywords: 'salon Fos, NGC, National Grand Coalition, Sierra Leone Politics, Political Parties in Sierra Leone, Kandeh Yumkella'
+  canonical_url: '[site:url]'
+  description: 'Salon Fos is the official National Grand Coalition (NGC) of Sierra Leone  Newspaper. We are championing Change, Hope, Opportunity & Transformation'
+  og_site_name: 'Salon Fos Newspaper'
+  og_type: News

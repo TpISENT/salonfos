@@ -6,7 +6,10 @@ dependencies:
     - core.entity_view_mode.node.mt_slide_view
     - field.field.node.mt_post.body
     - field.field.node.mt_post.comment
+    - field.field.node.mt_post.field_attachement
     - field.field.node.mt_post.field_image
+    - field.field.node.mt_post.field_local_video_media
+    - field.field.node.mt_post.field_metatags
     - field.field.node.mt_post.field_mt_banner_image
     - field.field.node.mt_post.field_mt_portrait_image
     - field.field.node.mt_post.field_mt_post_category
@@ -27,6 +30,11 @@ targetEntityType: node
 bundle: mt_post
 mode: mt_slide_view
 content:
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   field_image:
     weight: 0
     label: hidden
@@ -39,6 +47,9 @@ content:
 hidden:
   body: true
   comment: true
+  field_attachement: true
+  field_local_video_media: true
+  field_metatags: true
   field_mt_banner_image: true
   field_mt_portrait_image: true
   field_mt_post_category: true

@@ -21,6 +21,11 @@ targetEntityType: node
 bundle: mt_slideshow_entry
 mode: default
 content:
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   field_mt_slideshow_image:
     weight: 0
     label: hidden

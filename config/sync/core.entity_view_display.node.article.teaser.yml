@@ -33,6 +33,11 @@ content:
     third_party_settings: {  }
     label: hidden
     region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   field_image:
     type: image
     weight: -1
