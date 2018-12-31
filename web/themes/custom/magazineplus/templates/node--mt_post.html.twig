@@ -129,8 +129,8 @@
                 </a>
               </li>
               <li class="whatsapp{{ (mt_setting.print_button) ? ' print-button-enabled' : '' }}">
-                <a href="whatsapp://send?text={{node.label | url_encode(true)}}&url={{ url('entity.node.canonical', {'node': node.id}) }} title="Click to share on Whatsapp">
-                    <i class="fab fa-whatsapp"><span class="sr-only">whatsapp</span></i>
+                <a href="whatsapp://send?text={{ node.label | url_encode(true) }} {{ node.summary }} {{ node.url | url_encode(true) }}" data-action="share/whatsapp/share">
+                    <i class="fa fa-whatsapp"><span class="sr-only">whatsapp</span></i>
                 </a>
               </li>
               <li class="email{{ (mt_setting.print_button) ? ' print-button-enabled' : '' }}">
@@ -171,10 +171,13 @@
                 </a>
               </li>
               <li class="whatsapp{{ (mt_setting.print_button) ? ' print-button-enabled' : '' }}">
-                <a href="whatsapp://send?text={{node.label | url_encode(true)}}&url={{ url('entity.node.canonical', {'node': node.id}) }} title="Click to share on Whatsapp">
-                    <i class="fab fa-whatsapp"><span class="sr-only">whatsapp</span></i>
+                <a href="whatsapp://send?text={{ node.label | url_encode(true) }} {{ node.summary }} {{ url | url_encode(true) }}" data-action="share/whatsapp/share">
+                    <i class="fa fa-whatsapp"><span class="sr-only">whatsapp</span></i>
                 </a>
-              </li> 
+              </li>
+
+
+
               <li class="email{{ (mt_setting.print_button) ? ' print-button-enabled' : '' }}">
                 <a href="mailto:?Subject={{node.label | url_encode(true)}}&amp;Body={{ url('entity.node.canonical', {'node': node.id}) }}">
                     <i class="fa fa-envelope-o"><span class="sr-only">email</span></i>
