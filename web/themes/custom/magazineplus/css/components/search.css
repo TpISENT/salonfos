@@ -2,14 +2,21 @@
  * @file
  * Visual styles for Magazine+'s search block.
  */
+
+ #block-exposedformsearch-contentpage-1 form,
+ .block-views-exposed-filter-blocksearch-content-page-1 form,
 .block-search form {
   position: relative;
 }
+#block-exposedformsearch-contentpage-1 input.form-search,
+.block-views-exposed-filter-blocksearch-content-page-1 input.form-search,
 .block-search input.form-search {
   padding: 11px 15px;
   font-size: 14px;
   width: 100%;
 }
+#block-exposedformsearch-contentpage-1 .form-actions,
+.block-views-exposed-filter-blocksearch-content-page-1 .form-actions,
 .block-search .form-actions {
   position: absolute;
   top: 0px;
@@ -17,6 +24,8 @@
   margin: 0;
   font-size: 16px;
 }
+#block-exposedformsearch-contentpage-1 .form-actions:after,
+.block-views-exposed-filter-blocksearch-content-page-1 .form-actions:after,
 .block-search .form-actions:after {
   font-family: 'FontAwesome';
   content: "\f002";
@@ -29,6 +38,8 @@
   display: block;
   color: #2d2d2d;
 }
+#block-exposedformsearch-contentpage-1 input.form-submit,
+.block-views-exposed-filter-blocksearch-content-page-1 input.form-submit,
 .block-search input.form-submit {
   background-color: transparent;
   min-width: 0;
@@ -41,8 +52,12 @@
   border: none;
   box-shadow: none;
 }
+.block-views-exposed-filter-blocksearch-content-page-1 input.form-submit:focus,
+.block-views-exposed-filter-blocksearch-content-page-1 input.form-submit:hover,
 .block-search input.form-submit:focus,
 .block-search input.form-submit:hover,
+.region--light-typography .block-views-exposed-filter-blocksearch-content-page-1 input.form-submit:focus,
+.region--light-typography .block-views-exposed-filter-blocksearch-content-page-1 input.form-submit:hover,
 .region--light-typography .block-search input.form-submit:focus,
 .region--light-typography .block-search input.form-submit:hover {
   outline: none;
@@ -50,16 +65,20 @@
 }
 
 /*Search blocks @colored-regions*/
+.region--black-background .block-views-exposed-filter-blocksearch-content-page-1 input.form-submit,
+.region--black-background .block-views-exposed-filter-blocksearch-content-page-1 input.form-submit:hover,
 .region--black-background .block-search input.form-submit,
 .region--black-background .block-search input.form-submit:hover {
   background-color: transparent;
 }
 
 /*Header top highlighted search bar*/
+.header-top-highlighted__section .block-views-exposed-filter-blocksearch-content-page-1,
 .header-top-highlighted__section .block-search {
   margin: 10px 0 0;
 }
-.header-top-highlighted__section .block-search form {
+.header-top-highlighted__section .block-views-exposed-filter-blocksearch-content-page-1 form,
+.header-top-highlighted__section .block-search  form, {
   position: relative;
   padding-left: 35px;
 }
@@ -78,11 +97,13 @@
 .header-top-highlighted__section input.form-search:hover {
   box-shadow: none;
 }
+.header-top-highlighted__section .block-views-exposed-filter-blocksearch-content-page-1 .form-actions,
 .header-top-highlighted__section .block-search .form-actions {
   left: 0;
   width: 35px;
   text-align: center;
 }
+.header-top-highlighted__section .block-views-exposed-filter-blocksearch-content-page-1 .form-actions:after,
 .header-top-highlighted__section .block-search .form-actions:after {
   font-family: 'FontAwesome';
   content: "\f002";
@@ -94,11 +115,13 @@
   display: block;
   line-height: 35px;
 }
+.header-top-highlighted__section .block-views-exposed-filter-blocksearch-content-page-1 input.form-submit,
 .header-top-highlighted__section .block-search input.form-submit {
   height: 35px;
   width: 35px;
   box-shadow: none;
 }
+.region--light-typography .header-top-highlighted__section .block-views-exposed-filter-blocksearch-content-page-1 .form-actions:after,
 .region--light-typography .header-top-highlighted__section .block-search .form-actions:after {
   color: #ffffff;
 }
@@ -109,12 +132,14 @@
   color: #ffffff;
 }
 @media (max-width: 767px) {
+  .header-top-highlighted__section .block-views-exposed-filter-blocksearch-content-page-1,
   .header-top-highlighted__section .block-search {
     margin-bottom: 10px;
   }
 }
 
 /*Navigation search bar*/
+.header__section .block-views-exposed-filter-blocksearch-content-page-1,
 .header__section .block-search {
   padding-top: 8px;
 }
