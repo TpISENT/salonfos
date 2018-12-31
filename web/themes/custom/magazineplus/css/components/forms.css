@@ -165,7 +165,7 @@ select {
 .form-group:last-child {
   margin-bottom: 0;
 }
-.form-group .form-item, 
+.form-group .form-item,
 .form-group .form-actions {
   margin: 0;
 }
@@ -187,6 +187,7 @@ select {
 textarea {
   resize: none;
 }
+
 label {
   display: block;
 }
@@ -234,4 +235,7 @@ input[type="checkbox"] {
 }
 :-ms-input-placeholder {
   color: #2d2d2d;
+}
+#block-exposedformsearch-contentpage-1 label {
+  display:inline;
 }
