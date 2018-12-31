@@ -1,0 +1,15 @@
+uuid: 80e8f775-c68d-4548-b437-21c9758ba535
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  title: '[node:title] | [site:name]'
+  rights: 'Salon Fos Newspaper'
+  google: Pc3_tVaxIv0GYL6kiNvhGcPiGO1ZQn_VtKqIChzRON0
+  canonical_url: '[node:url]'
+  robots: 'index, follow'
+  description: '[node:summary]'

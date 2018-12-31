@@ -44,8 +44,12 @@ display:
         options:
           perm: 'access content'
       cache:
-        type: tag
-        options: {  }
+        type: time
+        options:
+          results_lifespan: 300
+          results_lifespan_custom: 0
+          output_lifespan: 3600
+          output_lifespan_custom: 0
       query:
         type: views_query
         options:
@@ -1466,10 +1470,11 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
+          text: view
+          output_url_as_text: true
           absolute: false
           entity_type: node
           plugin_id: entity_link
-          output_url_as_text: true
         title:
           id: title
           table: node_field_data
@@ -2928,7 +2933,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: '<h4 class="small text-left">Features News</h4>'
+          content: '<h5 class="text-left">Featured News</h5>'
           plugin_id: text_custom
     cache_metadata:
       max-age: -1
@@ -3524,7 +3529,7 @@ display:
           admin_label: ''
           empty: false
           tokenize: false
-          content: '<h4 class="small text-right">[current-date:long]</h4>'
+          content: '<h5 class="text-right">[current-date:long]</h5>'
           plugin_id: text_custom
     cache_metadata:
       max-age: -1

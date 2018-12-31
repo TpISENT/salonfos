@@ -54,8 +54,8 @@ settings:
   smallamt: ''
   smallabt: '1'
   supersubs: 1
-  minwidth: '17'
-  maxwidth: '27'
+  minwidth: '27'
+  maxwidth: '37'
   multicolumn: 0
   multicolumn_depth: '1'
   multicolumn_levels: '1'

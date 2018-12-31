@@ -11,4 +11,5 @@ effects:
     weight: 1
     data:
       width: 870
-      height: 450
+      height: 870
+      anchor: center-center

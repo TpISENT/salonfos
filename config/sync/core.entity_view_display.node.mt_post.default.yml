@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.mt_post.field_attachement
     - field.field.node.mt_post.field_image
     - field.field.node.mt_post.field_local_video_media
+    - field.field.node.mt_post.field_metatags
     - field.field.node.mt_post.field_mt_banner_image
     - field.field.node.mt_post.field_mt_portrait_image
     - field.field.node.mt_post.field_mt_post_category
@@ -25,6 +26,7 @@ dependencies:
     - comment
     - file
     - image
+    - metatag
     - text
     - user
     - video_embed_field
@@ -79,6 +81,13 @@ content:
       view_mode: full
       link: false
     third_party_settings: {  }
+    region: content
+  field_metatags:
+    weight: 12
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   field_mt_post_category:
     weight: 1

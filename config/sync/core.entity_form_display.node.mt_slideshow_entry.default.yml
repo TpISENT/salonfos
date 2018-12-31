@@ -13,6 +13,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.mt_slideshow_entry
   module:
+    - content_moderation
     - image
     - path
     - text
@@ -81,6 +82,12 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
   path:
     type: path
     weight: 13
@@ -123,6 +130,11 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+    region: content
+  url_redirects:
+    weight: 50
+    settings: {  }
     third_party_settings: {  }
     region: content
 hidden: {  }

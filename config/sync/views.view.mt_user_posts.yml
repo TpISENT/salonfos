@@ -2230,7 +2230,7 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 2
+          items_per_page: 4
           offset: 0
       defaults:
         pager: false
@@ -2361,6 +2361,42 @@ display:
           entity_type: node
           entity_field: langcode
           plugin_id: language
+        field_mt_slideshow_value:
+          id: field_mt_slideshow_value
+          table: node__field_mt_slideshow
+          field: field_mt_slideshow_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value: '1'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: boolean
       filter_groups:
         operator: AND
         groups:
@@ -2935,12 +2971,12 @@ display:
           admin_label: 'field_mt_user: User'
           required: false
           plugin_id: standard
-      title: 'Columnists Latest Posts'
+      title: Columnists
       style:
         type: default
         options:
           grouping: {  }
-          row_class: 'col-md-6 col-sm-6'
+          row_class: 'col-md-3 col-sm-6'
           default_row_class: true
       row:
         type: fields
@@ -3734,7 +3770,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: ''
+          row_class: col-md-12
           default_row_class: true
       row:
         type: fields
@@ -4324,7 +4360,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: ''
+          row_class: col-md-12
           default_row_class: true
       row:
         type: fields

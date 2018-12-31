@@ -7,7 +7,10 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.mt_post.body
     - field.field.node.mt_post.comment
+    - field.field.node.mt_post.field_attachement
     - field.field.node.mt_post.field_image
+    - field.field.node.mt_post.field_local_video_media
+    - field.field.node.mt_post.field_metatags
     - field.field.node.mt_post.field_mt_banner_image
     - field.field.node.mt_post.field_mt_portrait_image
     - field.field.node.mt_post.field_mt_post_category
@@ -47,6 +50,11 @@ content:
       pager_id: 0
     third_party_settings: {  }
     region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   field_image:
     type: image
     weight: 0
@@ -70,6 +78,9 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_attachement: true
+  field_local_video_media: true
+  field_metatags: true
   field_mt_banner_image: true
   field_mt_portrait_image: true
   field_mt_post_tags: true
