@@ -1,0 +1,22 @@
+uuid: 3b78d963-070d-4c46-9d41-ef7cd5e1ac96
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - amptheme
+_core:
+  default_config_hash: r_q_QXafqMXMY87a4vlNDa0PXg7tXyIq1BShaD5qJB0
+id: amptheme_content
+theme: amptheme
+region: content
+weight: -17
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

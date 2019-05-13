@@ -1,0 +1,22 @@
+uuid: 73393b8c-57d6-4532-82a0-f98700f88fc8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: authors
+label: Columnists
+type: 'canonical_entities:node'
+pattern: 'authors/[node:title]'
+selection_criteria:
+  121a2bb2-3677-435f-82fc-bad923d59e53:
+    id: node_type
+    bundles:
+      mt_team_member: mt_team_member
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 121a2bb2-3677-435f-82fc-bad923d59e53
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,25 @@
+uuid: e161cb41-2253-48e7-8193-82f9244ca8c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - amptheme
+_core:
+  default_config_hash: uyR_Sq-8jyw3vWHGrpt-9uHl2P6qZgnPCGxs_fgpbpo
+id: amptheme_branding
+theme: amptheme
+region: header
+weight: -24
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

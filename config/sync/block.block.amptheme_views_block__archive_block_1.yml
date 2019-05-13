@@ -1,0 +1,24 @@
+uuid: d7bc5813-af69-4203-8df5-10dc8aae70d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.archive
+  module:
+    - views
+  theme:
+    - amptheme
+id: amptheme_views_block__archive_block_1
+theme: amptheme
+region: header
+weight: -29
+provider: null
+plugin: 'views_block:archive-block_1'
+settings:
+  id: 'views_block:archive-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

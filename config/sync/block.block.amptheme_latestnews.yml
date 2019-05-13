@@ -1,0 +1,31 @@
+uuid: cb660dc7-a2d9-4466-88c4-3948d0f3ae79
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_nodes_slideshow_block:22fe14a3-a5df-4b68-83ad-da9d2b2c18fd'
+  module:
+    - block_content
+    - system
+  theme:
+    - amptheme
+id: amptheme_latestnews
+theme: amptheme
+region: content
+weight: -16
+provider: null
+plugin: 'block_content:22fe14a3-a5df-4b68-83ad-da9d2b2c18fd'
+settings:
+  id: 'block_content:22fe14a3-a5df-4b68-83ad-da9d2b2c18fd'
+  label: 'Latest News'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/fullscreen-slideshow\r\n/video-gallery-slideshow\r\n/alternative-header-2\r\n/mega-menu"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: 8ff09f3b-2d70-47e8-9a30-5c58f5d81f32
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_user_posts
+  module:
+    - system
+    - views
+  theme:
+    - amptheme
+id: amptheme_views_block__mt_user_posts_block_2
+theme: amptheme
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:mt_user_posts-block_2'
+settings:
+  id: 'views_block:mt_user_posts-block_2'
+  label: Columnists
+  provider: views
+  label_display: visible
+  views_label: Columnists
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

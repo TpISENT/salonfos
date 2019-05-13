@@ -1,0 +1,23 @@
+uuid: 46c0ec6e-f9cb-4c8f-aacc-162c32fc0a81
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search_content
+  module:
+    - views
+  theme:
+    - magazineplus
+id: exposedformsearch_contentpage_1
+theme: magazineplus
+region: header_top_second
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:search_content-page_1'
+settings:
+  id: 'views_exposed_filter_block:search_content-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

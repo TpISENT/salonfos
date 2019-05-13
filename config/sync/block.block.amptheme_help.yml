@@ -1,0 +1,22 @@
+uuid: 0f4db618-5c9b-4d5d-9853-2868ebe94350
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - amptheme
+_core:
+  default_config_hash: IEayb4QHxMzXoS3iz2PaAbHft7aTLySjf5BMM6iFDM0
+id: amptheme_help
+theme: amptheme
+region: content
+weight: -24
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

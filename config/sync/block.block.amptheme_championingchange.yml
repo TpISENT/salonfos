@@ -1,0 +1,25 @@
+uuid: 9bf4e853-ec4e-4790-99e8-aa6e730cb8e2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:501a8521-cb9c-4019-a25a-76c2b8b2d8fb'
+  module:
+    - block_content
+  theme:
+    - amptheme
+id: amptheme_championingchange
+theme: amptheme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:501a8521-cb9c-4019-a25a-76c2b8b2d8fb'
+settings:
+  id: 'block_content:501a8521-cb9c-4019-a25a-76c2b8b2d8fb'
+  label: 'Championing Change'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 48c1fd6f-7d56-4116-96e1-48dffdabe1e5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - amptheme
+_core:
+  default_config_hash: Ok68zlSpUL-Mz10SZmIPxMlF-Kt3yh2qYH6cAH6BLts
+id: amptheme_local_tasks
+theme: amptheme
+region: content
+weight: -21
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

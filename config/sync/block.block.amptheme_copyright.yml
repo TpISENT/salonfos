@@ -1,0 +1,25 @@
+uuid: 12855b7b-0a3c-4e1a-b738-271ac3c976dc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2173ccfa-7f63-4412-bf19-ae5c91ca7110'
+  module:
+    - block_content
+  theme:
+    - amptheme
+id: amptheme_copyright
+theme: amptheme
+region: header
+weight: -25
+provider: null
+plugin: 'block_content:2173ccfa-7f63-4412-bf19-ae5c91ca7110'
+settings:
+  id: 'block_content:2173ccfa-7f63-4412-bf19-ae5c91ca7110'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

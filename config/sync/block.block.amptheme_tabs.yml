@@ -1,0 +1,40 @@
+uuid: 13e638f4-df30-4dfe-8b7f-bb6c1061a387
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_tabs_block:6d8791bb-3cc7-4d04-8f98-556cf9727cc4'
+  module:
+    - block_content
+    - node
+    - system
+  theme:
+    - amptheme
+id: amptheme_tabs
+theme: amptheme
+region: header
+weight: -28
+provider: null
+plugin: 'block_content:6d8791bb-3cc7-4d04-8f98-556cf9727cc4'
+settings:
+  id: 'block_content:6d8791bb-3cc7-4d04-8f98-556cf9727cc4'
+  label: Tabs
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      mt_post: mt_post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

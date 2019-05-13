@@ -1,0 +1,24 @@
+uuid: 1f277372-c58d-4ed9-8549-bae473b04fc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.mt-subfooter-menu
+  module:
+    - system
+  theme:
+    - amptheme
+id: amptheme_subfooter
+theme: amptheme
+region: footer
+weight: -24
+provider: null
+plugin: 'system_menu_block:mt-subfooter-menu'
+settings:
+  id: 'system_menu_block:mt-subfooter-menu'
+  label: Subfooter
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

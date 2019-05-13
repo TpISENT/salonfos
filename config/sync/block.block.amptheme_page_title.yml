@@ -1,0 +1,27 @@
+uuid: 11f7a62e-698f-4d67-9cc2-359b184f1224
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - amptheme
+_core:
+  default_config_hash: BHeSmz8McZdY1qtIgPdYd_MexLfm6iUcfbnW-Mru-Es
+id: amptheme_page_title
+theme: amptheme
+region: header
+weight: -23
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/15\r\n/alternative-header-2\r\n/video-gallery-slideshow\r\n/mega-menu\r\n/user/*\r\n/sdgs"
+    negate: true
+    context_mapping: {  }

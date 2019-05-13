@@ -1,0 +1,31 @@
+uuid: 1e0f586a-1d20-4498-a397-ecfee504e29b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fe112ac0-f62c-4ad9-9ec5-d75729598c74'
+  module:
+    - block_content
+    - system
+  theme:
+    - amptheme
+id: amptheme_sdgcategoryheading
+theme: amptheme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:fe112ac0-f62c-4ad9-9ec5-d75729598c74'
+settings:
+  id: 'block_content:fe112ac0-f62c-4ad9-9ec5-d75729598c74'
+  label: 'SDG Category Heading'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /sdgs
+    negate: false
+    context_mapping: {  }

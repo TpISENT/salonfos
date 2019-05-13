@@ -1,0 +1,25 @@
+uuid: 52c61612-f273-4734-8ea0-f1ad9c22fb8c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b10d8377-943b-4b25-8ce3-29fcae12dabb'
+  module:
+    - block_content
+  theme:
+    - amptheme
+id: amptheme_donate
+theme: amptheme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:b10d8377-943b-4b25-8ce3-29fcae12dabb'
+settings:
+  id: 'block_content:b10d8377-943b-4b25-8ce3-29fcae12dabb'
+  label: Donate
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

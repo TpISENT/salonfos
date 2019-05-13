@@ -1,0 +1,25 @@
+uuid: a4304873-bf7f-4389-b9e9-6258727bd44e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:38e5e567-7084-46f2-b7b0-104a0fcd6d05'
+  module:
+    - block_content
+  theme:
+    - amptheme
+id: amptheme_subscription
+theme: amptheme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:38e5e567-7084-46f2-b7b0-104a0fcd6d05'
+settings:
+  id: 'block_content:38e5e567-7084-46f2-b7b0-104a0fcd6d05'
+  label: Subscription
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

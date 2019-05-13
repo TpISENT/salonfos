@@ -1,8 +1,9 @@
-uuid: b7aba7e6-9fab-4536-bde4-1662fb69c466
+uuid: 86f2de1e-edc2-44a3-8102-da62232af3b9
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.amp
     - field.field.node.page.body
     - field.field.node.page.field_image
     - field.field.node.page.field_mt_banner_image
@@ -17,10 +18,10 @@ dependencies:
     - user
 _core:
   default_config_hash: oZ-7vpIJxjxL2up9B5KrJGD0lazQ9aN0P-fIPo6OrSU
-id: node.page.default
+id: node.page.amp
 targetEntityType: node
 bundle: page
-mode: default
+mode: amp
 content:
   body:
     label: hidden

@@ -1,0 +1,33 @@
+uuid: 1e475476-82c8-4360-b2f9-eed5db889e68
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_team_members_list
+  module:
+    - node
+    - views
+  theme:
+    - amptheme
+id: amptheme_views_block__mt_team_members_list_block_1
+theme: amptheme
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:mt_team_members_list-block_1'
+settings:
+  id: 'views_block:mt_team_members_list-block_1'
+  label: 'Our Columnists'
+  provider: views
+  label_display: visible
+  views_label: 'Our Columnists'
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      mt_team_member: mt_team_member
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

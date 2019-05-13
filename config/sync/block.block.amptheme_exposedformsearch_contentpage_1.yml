@@ -1,0 +1,23 @@
+uuid: 1d565eca-c7b1-46f6-9b56-64b9a6187f55
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search_content
+  module:
+    - views
+  theme:
+    - amptheme
+id: amptheme_exposedformsearch_contentpage_1
+theme: amptheme
+region: header
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:search_content-page_1'
+settings:
+  id: 'views_exposed_filter_block:search_content-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

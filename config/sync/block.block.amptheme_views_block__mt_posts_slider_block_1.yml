@@ -1,0 +1,30 @@
+uuid: 3b3241ba-bdef-4fd0-8596-893258bcfca1
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.mt_posts_slider
+  module:
+    - system
+    - views
+  theme:
+    - amptheme
+id: amptheme_views_block__mt_posts_slider_block_1
+theme: amptheme
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:mt_posts_slider-block_1'
+settings:
+  id: 'views_block:mt_posts_slider-block_1'
+  label: 'Latest from our columnists'
+  provider: views
+  label_display: visible
+  views_label: 'Latest from our columnists'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

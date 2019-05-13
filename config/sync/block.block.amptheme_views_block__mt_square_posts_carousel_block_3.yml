@@ -1,0 +1,30 @@
+uuid: 1f790413-0c72-40f5-89f2-f561517bd563
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_square_posts_carousel
+  module:
+    - system
+    - views
+  theme:
+    - amptheme
+id: amptheme_views_block__mt_square_posts_carousel_block_3
+theme: amptheme
+region: header
+weight: -23
+provider: null
+plugin: 'views_block:mt_square_posts_carousel-block_3'
+settings:
+  id: 'views_block:mt_square_posts_carousel-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blocks
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: 9d5881ff-5299-4e6c-ac9f-f9adb690997a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:41827146-c072-4f22-802c-560aa2750f6c'
+  module:
+    - block_content
+    - system
+  theme:
+    - amptheme
+id: amptheme_aboutuscontenttop
+theme: amptheme
+region: content
+weight: -18
+provider: null
+plugin: 'block_content:41827146-c072-4f22-802c-560aa2750f6c'
+settings:
+  id: 'block_content:41827146-c072-4f22-802c-560aa2750f6c'
+  label: 'About Us (Content Top)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }

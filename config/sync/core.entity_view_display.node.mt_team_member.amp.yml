@@ -1,8 +1,9 @@
-uuid: 5642b0b5-ed1d-43e5-b5c8-e9cf834ad452
+uuid: 5b8dcba4-9cb2-4722-926f-13cc9d031843
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.amp
     - field.field.node.mt_team_member.body
     - field.field.node.mt_team_member.field_linkedin_account
     - field.field.node.mt_team_member.field_mt_banner_image
@@ -15,16 +16,16 @@ dependencies:
     - field.field.node.mt_team_member.field_mt_twitter_account
     - field.field.node.mt_team_member.field_mt_user
     - field.field.node.mt_team_member.field_mt_youtube_account
-    - image.style.medium
+    - image.style.mt_team_member_photo
     - node.type.mt_team_member
   module:
     - image
     - text
     - user
-id: node.mt_team_member.default
+id: node.mt_team_member.amp
 targetEntityType: node
 bundle: mt_team_member
-mode: default
+mode: amp
 content:
   body:
     label: hidden
@@ -53,7 +54,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: medium
+      image_style: mt_team_member_photo
       image_link: file
     third_party_settings: {  }
     type: image

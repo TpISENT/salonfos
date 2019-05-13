@@ -1,0 +1,30 @@
+uuid: 8770ffaa-62a6-4d4e-8c59-519442bc99c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_posts_carousel
+  module:
+    - system
+    - views
+  theme:
+    - amptheme
+id: amptheme_views_block__mt_posts_carousel_block_1
+theme: amptheme
+region: header
+weight: -24
+provider: null
+plugin: 'views_block:mt_posts_carousel-block_1'
+settings:
+  id: 'views_block:mt_posts_carousel-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

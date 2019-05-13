@@ -1,0 +1,31 @@
+uuid: 320c8aa1-94fb-469f-8fb6-7e2acceb5530
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:mt_video_gallery_block:d00886a1-d8d8-4f00-b4a7-b879078267c1'
+  module:
+    - block_content
+    - system
+  theme:
+    - amptheme
+id: amptheme_videogalleryblock
+theme: amptheme
+region: header
+weight: -24
+provider: null
+plugin: 'block_content:d00886a1-d8d8-4f00-b4a7-b879078267c1'
+settings:
+  id: 'block_content:d00886a1-d8d8-4f00-b4a7-b879078267c1'
+  label: 'Video Gallery'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

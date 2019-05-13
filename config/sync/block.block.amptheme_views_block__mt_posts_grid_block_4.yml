@@ -1,0 +1,30 @@
+uuid: beb794fd-513f-46d4-ac58-9af2dc4a25ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mt_posts_grid
+  module:
+    - system
+    - views
+  theme:
+    - amptheme
+id: amptheme_views_block__mt_posts_grid_block_4
+theme: amptheme
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:mt_posts_grid-block_4'
+settings:
+  id: 'views_block:mt_posts_grid-block_4'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
